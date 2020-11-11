@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/team/index",
+    "pages/team/lower",
+    "pages/user/index",
+    "pages/user/coin",
+    "pages/user/cash",
+    "pages/user/cashList",
+    "pages/user/cashInfo",
+    "pages/user/teach",
+    "pages/user/cooperation",
+    "pages/user/upass",
+    "pages/login/index",
+    "pages/login/register",
+    "pages/login/forget",
+    "pages/task/detail",
+    "pages/task/apply",
+    "pages/task/type",
+    "pages/index/unionLogin",
+    "pages/order/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "任务",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#e10a07",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/index/index.png",
+        "selectedIconPath": "static/img/index/indexsel.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/team/index",
+        "iconPath": "static/img/team.png",
+        "selectedIconPath": "static/img/team1.png",
+        "text": "团队"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/img/footer/my.png",
+        "selectedIconPath": "static/img/footer/my-act.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

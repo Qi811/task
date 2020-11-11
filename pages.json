@@ -1,0 +1,265 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/team/index",
+
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "团队",
+
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/team/lower",
+			"style": {
+				"navigationBarTitleText": "我的好友",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/user/index",
+
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的",
+
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/user/coin",
+			"style": {
+				"navigationBarTitleText": "资金记录",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+
+			"path": "pages/user/cash",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "提现",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "记录",
+							"fontSize": "28upx",
+							"color": "#000000",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		},
+		{
+			"path": "pages/user/cashList",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/user/cashInfo",
+			"style": {
+				"navigationBarTitleText": "提现资料",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/user/teach",
+			"style": {
+				"navigationBarTitleText": "新手教程",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/user/cooperation",
+			"style": {
+				"navigationBarTitleText": "招商合作",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/user/upass",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/task/detail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "任务详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "",
+							"fontSize": "32upx",
+							"color": "#000000",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/apply",
+			"style": {
+				"navigationBarTitleText": "任务提交",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/task/type",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/index/unionLogin",
+			"style": {
+				"navigationBarTitleText": "悬赏榜",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "任务列表",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "任务",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#e10a07",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/index/index.png",
+				"selectedIconPath": "static/img/index/indexsel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/team/index",
+				"iconPath": "static/img/team.png",
+				"selectedIconPath": "static/img/team1.png",
+				"text": "团队"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/img/footer/my.png",
+				"selectedIconPath": "static/img/footer/my-act.png",
+				"text": "我的"
+			}
+		]
+	}
+}

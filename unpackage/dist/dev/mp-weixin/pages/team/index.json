@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "团队",
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

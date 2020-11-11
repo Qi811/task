@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "任务详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast"
+  }
+}

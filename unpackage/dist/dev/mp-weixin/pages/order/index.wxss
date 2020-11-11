@@ -1,0 +1,10 @@
+.task-list.data-v-0ca91b30 {
+  width: 94%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: rgba(183, 183, 183, 0.3) 1px 0px 10px 0px;
+}
+

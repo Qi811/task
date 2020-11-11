@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "任务提交",
+  "usingComponents": {
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

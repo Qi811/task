@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "提现",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast"
+  }
+}

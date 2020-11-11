@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新手教程",
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image"
+  }
+}

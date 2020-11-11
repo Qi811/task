@@ -1,0 +1,1 @@
+<view class="container data-v-277327a0"><view class="wrapper data-v-277327a0"><view class="bir-webviwe data-v-277327a0"><view class="viewiframe _iframe data-v-277327a0 vue-ref" id="iframe" src="{{url}}" data-ref="iframe" data-event-opts="{{[['onload',[['onLoad',['$event']]]]]}}" bindonload="__e"></view></view></view></view>

@@ -1,0 +1,29 @@
+.view2-view-text {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 20rpx;
+  width: 80%;
+}
+.view2-view-image-right {
+  width: 18rpx;
+  height: 30rpx;
+  margin-left: 50rpx;
+}
+.cash {
+  text-align: center;
+  background: white;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.cash .cash-top {
+  padding: 32rpx 32rpx 50rpx 32rpx;
+  /* border-bottom: 1px solid gainsboro; */
+  background: #e10a07;
+}
+.cash .leiji {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
